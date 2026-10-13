@@ -1,0 +1,6 @@
+{
+  "name": "Studio Rachel Caetano Nail Design",
+  "description": "Studio Rachel Caetano Nail Design - Beleza, cuidado e elegância em cada detalhe. Especializado em unhas, estética e cursos de nail design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

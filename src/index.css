@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-primary: #C5A059;
+    --gold-light: #E7D5B0;
+    --gold-dark: #9A7736;
+    --gold-bg: #FAF6EE;
+  }
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Hide scrollbar for carousel while preserving scroll functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle gold shimmer */
+@keyframes subtle-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #A88438 0%, #D4AF37 45%, #B8923F 80%, #8C6A24 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #D4AF37 0%, #C5A059 50%, #B8923F 100%);
+}
+
+.gold-gradient-subtle {
+  background: linear-gradient(145deg, #FAF7F0 0%, #F5EFE1 100%);
+}
+
+.gold-border {
+  border-color: rgba(197, 160, 89, 0.35);
+}
